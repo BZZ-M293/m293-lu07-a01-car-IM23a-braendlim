@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Fahrzeug-Konfigurator</title>
+    <meta charset="UTF-8">
+    <title>Fahrzeug-Konfigurator</title>
 
 </head>
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <fieldset>
+        <legend>Fahrzeugmodell:</legend>
+        <label>
+        <select name="Fahrzeugmodell" size="1">
+            <option>Volvo</option>
+            <option>BMW</option>
+            <option>Porsche</option>
+            <option>Lamborghini</option>
+            <option>Toyota</option>
+            <option>Jeep</option>
+            <option>Ferrari</option>
+            <option>Tesla</option>
+            <option>Lincoln</option>
+            <option>Western Star</option>
+            <option>Honda</option>
+            <option>Acura</option>
+            <option>smart</option>
+            <option>Subaru</option>
+            <option>Ford</option>
+        </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Lackfarbe</legend>
+        <input type="radio" id="a" name="Modell" value="Rot">
+        <label for="a"> Rot </label>
+        <input type="radio" id="b" name="Modell" value="Blau">
+        <label for="b"> Blau </label>
+        <input type="radio" id="c" name="Modell" value="Grün">
+        <label for="c"> Grün </label>
+        <input type="radio" id="f" name="Modell" value="Lila">
+        <label for="f"> Lila </label>
+        <input type="radio" id="g" name="Modell" value="Pink">
+        <label for="g"> Pink </label>
+        <input type="radio" id="d" name="Modell" value="Schwarz">
+        <label for="d"> Schwarz </label>
+        <input type="radio" id="e" name="Modell" value="Weiss">
+        <label for="e"> Weiss </label>
+    </fieldset>
+    <button type="submit">Submit</button>
+</form>
 
 </body>
 </html>
